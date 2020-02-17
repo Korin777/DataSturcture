@@ -1,0 +1,3 @@
+	node是各個vertex，而nodee則是跟某個vertex所接的vertex，用來皆在node後面，insert函式用來將nodee皆在node後，
+bipartite函式則用來判斷graph是否為bipartitegraph是的話輸出true並將所分出的兩組vertex v1、v2印出，否的話則印出false。
+	bipartite函式時間複雜度為O(n+e)，因第一個for-while迴圈會跑e次而剩下兩個外面的while迴圈則總共會會跑n次。

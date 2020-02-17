@@ -1,0 +1,6 @@
+    用node這個linklist來模擬排隊的情形，insert這個fuction用將
+新牌進來的人插入node裡面，defront這個function用來將node的第
+一個元素移除。main function先將有幾組及每組裡有哪幾個元素分別存進
+group及member這個陣列，while迴圈則看目前有新的人要來排隊還是
+地一個人要離開隊伍，若是有新的人要來排隊，先檢查隊伍裡是否有
+同一組的人再決定要插入在隊伍的哪裡。

@@ -1,0 +1,2 @@
+	push函式新增一個element到heap裡，並更新heap裡有的elemet數n，pop函式則將heap裡最大的數取出，並更新heap裡有的element數，
+push及pop過程中heap裡的數都是由大排到小的。運用push及pop得到最大的ticket_sell並輸出。

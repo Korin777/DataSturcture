@@ -1,0 +1,1 @@
+	heightunion函式將兩個tree結合，而collapsingfind函式則將找到root所需的部步數和中間需reset parent的次數加起來

@@ -1,0 +1,3 @@
+	node是各個vertex，而nodee則是跟某個vertex所接的vertex，用來皆在node後面，insert函式用來將nodee皆在node後
+，dfnlow函式用來算出每個node的dfn及low，bridge函式用來找出graph的所有bridge。
+	bridge函式的時間雜度為O(2 * e)，因for-while迴圈總共會跑2 * e次。

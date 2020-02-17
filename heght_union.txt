@@ -1,0 +1,3 @@
+	heightunion函式將parent依照heightunion的規則變成tree，collapsingfind函式則將i及i上面的parent的parent都設為root
+的parent，而裡面的move為i向上走了幾步+幾個node的parent被重設，然後回傳move。
+	我覺得heightunion跟weightunion再用collapsingfind時的效果差不多，因為要讓所有node的parnet連到root所需的move數好像一樣
